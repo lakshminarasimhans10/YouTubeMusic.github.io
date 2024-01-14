@@ -1,0 +1,242 @@
+.footer{
+  background-color:rgb(32, 31, 31);
+  height: 69px;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+  color: rgba(128, 128, 128, 0.082);
+  border-top: 46px;
+  border-top: solid;
+  border-color: red;
+  
+}
+
+.leftfootersection{
+  display: flex;
+  align-items: center;
+  width: 239px;
+}
+
+.rightfootersection{
+  display: flex;
+  align-items: center;
+  width:260px;
+  margin-left: 50px;
+  
+}
+
+.middlefootersection{
+  display: flex;
+  align-items: center;
+  width: 700px;
+  justify-content: center;
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
+.time{
+  font-family: Arial;
+  color: rgba(211, 211, 211, 0.6);
+  font-size: 12px;
+  width: 60px;
+}
+
+.badass{
+  width: 40px ;
+  height: 40px;
+  margin-right: 15px;
+
+}
+
+.badass-img{
+  width: 40px;
+  height: 40px;
+  
+}
+
+.song-details{
+  
+  padding-right: 20px;
+  font-family: arial;
+  height: 40px;
+  width: 500px;
+  
+}
+
+.song-title{
+  font-weight:500;
+  color: white;
+}
+
+.composer{
+  font-weight: 400;
+  color: rgba(211, 211, 211, 0.6);
+  width: 500px;
+  height: 30px;
+  font-size: medium;
+}
+
+.dislike-button{
+  background-color:rgba(128, 128, 128, 0.015);
+  border: none;
+  height: 25px;
+  width: 25px;
+}
+
+.dislike-button-img{
+  height: 25px;
+  width: 25px;
+  margin-left: -290px;
+}
+
+.like-button{
+  background-color:rgba(128, 128, 128, 0.015);
+  border: none;
+  height: 25px;
+  width: 25px;
+  margin-left: -130px;
+}
+
+.like-button-img{
+  height: 25px;
+  width: 25px;
+}
+
+.song-details2{
+  display: flex;
+}
+
+.playcontrol{
+  display: flex;
+}
+
+.start{
+  width: 30px;
+  height: 30px;
+  background-color:rgba(128, 128, 128, 0.015);
+  border: none;
+  margin-left: 10px;
+  margin-top: 4px;
+}
+
+.start-img{
+  width: 20px;
+  height: 20px;
+}
+
+
+
+.play{
+  width: 30px;
+  height: 30px;
+  background-color:rgba(128, 128, 128, 0.015);
+  border: none;
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+.play-img{
+  width: 35px;
+  height: 35px;
+}
+
+.last{
+  width: 40px;
+  height: 40px;
+  background-color:rgba(128, 128, 128, 0.015);
+  border: none;
+  margin-right: 10px;
+}
+
+.last-img{
+  width: 20px;
+  height: 20px;
+}
+
+.more{
+  background-color:rgba(128, 128, 128, 0.015);
+  border: none;
+  height: 10px;
+  width: 10px;
+  margin-left: 25px;
+}
+
+.more-img{
+  height: 27px;
+  width: 27px;
+}
+
+.vollvl{
+  height: 30px;
+  width: 95px;
+  margin-right: 10px;
+  margin-left: -130px;
+}
+
+.vollvl-img{
+  height: 30px;
+  width: 95px;
+  
+}
+
+
+
+.volume{
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+  
+}
+
+.volume-img{
+  height: 40px;
+  width: 40px;
+  
+}
+
+
+.loopmood{
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+
+}
+
+.loopmood-img{
+  height: 40px;
+  width: 40px;
+  
+}
+
+.suffel{
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+  
+}
+
+.suffel-img{
+  height: 40px;
+  width:40px;
+}
+
+.toptri{
+  height: 27px;
+  width: 27px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.toptri-img{
+  height: 27px;
+  width: 27px;
+}
+
+

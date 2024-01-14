@@ -1,0 +1,121 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  height: 55px;
+  position: fixed;
+  z-index: 1;
+  margin-bottom:50px;
+}
+
+
+.left-corner-section{
+  display: flex;
+  height: 55px;
+}
+
+.middle-section{
+  display: flex;
+  margin-left: 220px;
+  height: 55px;
+  width: 490px;
+}
+
+.right-corner-section{
+  display: flex;
+  width: 615px;
+  height: 55px;
+}
+
+.hamburger-container{
+  height: 55px;
+  width: 55px;
+  margin-top: -5px;
+}
+
+.hamburger-image{
+  height: 52px;
+  width: 52px;
+  vertical-align: middle;
+}
+
+.ytmusic-logo{
+  height: 55px;
+  width: 55px;
+  display: flex;
+  margin-top: -5px;
+}
+
+.ytmusic-logo-img{
+  height: 26px;
+  width: 84px;
+  vertical-align: middle;
+  margin-top: 14px;
+  margin-left: 4px;
+}
+
+.music{
+  margin-left: -56px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: bolder;
+  font-size: 29px;
+  height: 100%;
+  color: white;
+}
+
+.Music{
+  display: flex;
+  height: 55px;
+  margin-top: -18px;
+  width: 10px;
+  
+}
+
+.searchbar{
+  display: flex;
+  height: 44px;
+  width: 490px;
+  border: solid;
+  border-radius: 10px;
+  background-image: linear-gradient(gray, black);
+
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  
+  
+}
+
+.searchicon{
+  display: flex;
+  height: 26px;
+  width: 84px;
+  margin-top: 11px;
+  
+  
+  
+}
+
+.para{
+  display: flex;
+  font-family: Roboto, arial;
+  font-size: 18px;
+  padding-top: 10px;
+  margin-left: -10px;
+  color: rgba(211, 211, 211, 0.673);
+
+} 
+.chnllogo{
+  height: 55px;
+  width: 55px;
+}
+
+.channel-logo{
+  height: 36px;
+  width: 34px;
+  margin-left: 480px;
+  border-radius: 18px;
+}
+

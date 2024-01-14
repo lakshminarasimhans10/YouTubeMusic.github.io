@@ -1,0 +1,115 @@
+.header2{
+  display: flex;
+  width: 900px;
+  flex-direction: row;
+  margin-top: 100px;
+  margin-left: 330px;
+  position: absolute;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+}
+
+.Relax{
+  height: 34px;
+  border-radius: 10px;
+  background-color:rgba(188, 188, 188, 0.289);
+  border: none;
+
+}
+
+.relax-button, .energize-button , .podcasts-button , .commute-button , .workout-button , .focus-button , .party-button , .sad-button , .sleep-button , .feelgood-button , .romance-button{
+  padding-top: 9px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-family: Arial;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.Energize{
+  height: 34px;
+  border: none;
+  border-radius: 10px;
+  background-color:rgba(188, 188, 188, 0.289);
+
+}
+.Podcasts{
+  height: 34px;
+  border: none;
+  border-radius: 10px;
+  background-color:rgba(188, 188, 188, 0.289);
+
+}
+
+.Commute{
+  height: 34px;
+  border: none;
+  border-radius: 10px;
+  background-color:rgba(188, 188, 188, 0.289);
+
+}
+
+.Workout{
+  height: 34px;
+  border: none;
+  border-radius: 10px;
+  background-color:rgba(188, 188, 188, 0.289);
+
+}
+
+.Focus{
+  height: 34px;
+  border: none;
+  border-radius: 10px;
+  background-color:rgba(188, 188, 188, 0.289);
+
+}
+
+.Party{
+  height: 34px;
+  border: none;
+  border-radius: 10px;
+  background-color:rgba(188, 188, 188, 0.289);
+
+}
+
+.Sad{
+  height: 34px;
+  border: none;
+  border-radius: 10px;
+  background-color:rgba(188, 188, 188, 0.289);
+
+}
+
+.Sleep{
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color:rgba(188, 188, 188, 0.289);
+
+}
+
+
+.Feelgood{
+  height: 34px;
+  border: none;
+  border-radius: 10px;
+  background-color:rgba(188, 188, 188, 0.289);
+
+}
+
+.Romance{
+  height: 34px;
+  border: none;
+  border-radius: 10px;
+  background-color:rgba(188, 188, 188, 0.289);
+
+}
+
+.Relax:hover , .Energize:hover , .Podcasts:hover , .Commute:hover , .Workout:hover , .Focus:hover , .Party:hover , .Feelgood:hover , .Romance:hover  , .Sad:hover , .Sleep:hover{
+  background-color:rgba(188, 188, 188, 0.455);
+
+}

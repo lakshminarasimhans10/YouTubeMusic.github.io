@@ -1,0 +1,123 @@
+.header3{
+  display: flex;
+  width: 900px;
+  flex-direction: row;
+  position: absolute;
+  margin-left: 330px;
+  margin-top: 200px;
+  position: fixed;
+
+}
+
+.hdlogo{
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+}
+
+.hdlogo-img{
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+}
+
+.mds{
+  display: flex;
+  flex-direction: column;
+  width: 730px;
+}
+
+.music4lyf{
+  font-family: arial;
+  color: rgba(225, 225, 225, 0.721);
+  font-weight: 100;
+  font-style: normal;
+  margin-bottom: 5px;
+
+}
+
+.listen-again{
+  font-family: youtube-sans, Roboto;
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  width: 170px;
+}
+
+.listen-again:hover{
+  text-decoration-line:underline;
+}
+
+
+.rts{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 180px;
+}
+
+.more2, .pre , .next{
+  margin-top: 19px;
+  background-color:(#2C3E50,#000000);
+  border: rgba(255, 255, 255, 0.408);
+  border-style:solid;
+  border-width:thin;
+  
+}
+
+.more2{
+  height: 40px;
+  width:65px;
+  border-radius: 23px;
+  margin-left: 90px;
+}
+
+.pre{
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.next{
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+
+.more-button , .pre-button , .next-button{
+  padding-left: 5px;
+  padding-top: 11px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-family: Arial;
+  color: white;
+  font-size: 14px;
+  font-weight: 50;
+  cursor: pointer;
+}
+
+.more2:hover, .pre:hover, .next:hover{
+  background-color:rgba(108, 108, 108, 0.301);
+  cursor: pointer;
+}
+
+
+
+.more-button{
+  width: 45px;
+  padding-left: 7px;
+}
+
+.pre-button{
+  width: 40px;
+
+}
+
+.next-button{
+  width: 40px;
+}

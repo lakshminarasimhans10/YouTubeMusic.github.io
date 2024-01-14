@@ -1,0 +1,495 @@
+.sidebar{
+  position: fixed;
+  left:0px;
+  bottom: 40px;
+  top: -5px;
+  background-color: black;
+  width: 240px;
+  height: 900px;
+  border-right-style: solid;
+  border-color: rgba(255, 255, 255, 0.435);
+  border-width: 0.6px;
+  
+}
+
+.sidebar-elements{
+  padding-top: 70px;
+}
+
+.home div, .library div, .explore div{
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+
+.home{
+  display: flex;
+  height: 50px;
+  width: 223px;
+  padding-left: 10px;
+
+}
+
+.home-button{
+  background-color:rgba(128, 128, 128, 0.283);
+  width: 233px;
+  display: flex;
+  color:rgba(128, 128, 128, 0.283);
+  border: none;
+  border-radius: 10px;
+
+}
+
+.Home{
+  padding-top: 15px;
+}
+
+.home-button-img, .explore-button-img, .library-button-img{
+  height:26px;
+  width: 26px;
+  padding: 9px 17px 0px 17px;
+}
+
+.explore{
+  display: flex;
+  width: 223px;
+  padding-left: 10px;
+  height: 50px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+
+.explore-button:hover{
+  background-color:rgba(128, 128, 128, 0.471);
+  cursor: pointer;
+}
+
+.explore-button{
+  width: 233px;
+  display: flex;
+  background-color: black;
+  height: 50px;
+  border: none;
+  transition: opacity 0.15sec;
+  border-radius: 10px;
+  transition :background-color 0.15s;
+}
+
+.Explore{
+  padding-top: 15px;
+
+}
+
+.library{
+  display: flex;
+  width: 223px;
+  padding-left: 10px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.library-button:hover{
+  background-color:rgba(128, 128, 128, 0.471);
+  cursor: pointer;
+  
+}
+
+.library-button{
+  width: 233px;
+  display: flex;
+  background-color: black;
+  height: 50px;
+  border: none;
+  transition: opacity 0.15sec;
+  border-radius: 10px;
+  transition :background-color 0.15s;
+}
+
+.Library{
+  padding-top: 15px;
+
+}
+
+.hr{
+  height: 0.5px; 
+  width: 195px;
+  padding-left: 18px;
+  margin-top: 40px;
+  opacity: 0.4;
+
+}
+
+.newplaylist{
+  display: flex;
+  width: 223px;
+  height: 50px;
+}
+
+.new-playlist{
+  width: 223px;
+  display: flex;
+  height: 40px;
+  border: none;
+  background-color:rgba(128, 128, 128, 0.283);
+  margin-top: 25px;
+  border-radius: 70px;
+  margin-left: 10px;
+}
+
+.New-Playlist{
+  color: white;
+  padding-top:11px;
+  padding-left: 50px;
+  font-family: roboto, arial;
+  font-weight: 500;
+  font-size: 14px;
+  transition :background-color 0.15s;
+}
+
+.new-playlist:hover{
+  cursor: pointer;
+  background-color:rgba(128, 128, 128, 0.471);
+}
+
+.sidebar-elements2{
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  height: 400px;
+  overflow-y:scroll;
+  position: fixed;
+  scroll-behavior: smooth;
+}
+
+.sidebar-elements2::-webkit-scrollbar { 
+  width: 0;
+  
+}
+
+.likedmusic{
+  width: 233px;
+  background-color: black;
+  height:33px;
+  border: none;
+  color: white;
+  transition: opacity 0.15sec;
+  border-radius: 10px;
+  transition :background-color 0.15s;
+  padding-bottom: 55px;
+}
+
+.likedmusic:hover{
+  
+  background-color:rgba(128, 128, 128, 0.471);
+  cursor: pointer;
+
+}
+
+.lm{
+  font-family: arial;
+  font-weight: 400;
+  font-size: 14px;
+  padding-bottom: 13px;
+  padding-right: 120px;
+  padding-top: 10px;
+}
+
+.energyhouse{
+  width: 233px;
+  background-color: black;
+  height: 55px;
+  border: none;
+  color: white;
+  transition: opacity 0.15sec;
+  border-radius: 10px;
+  transition :background-color 0.15s;
+  padding-bottom: 55px;
+}
+
+.energyhouse:hover{
+  background-color:rgba(128, 128, 128, 0.471);
+  cursor: pointer;
+}
+
+.eh{
+  font-family: arial;
+  font-weight: 400;
+  font-size: 14px;
+  padding-bottom: 13px;
+  padding-right: 76px;
+  padding-top: 10px;
+}
+
+.yuvanhits{
+  width: 233px;
+  background-color: black;
+  height: 55px;
+  border: none;
+  color: white;
+  transition: opacity 0.15sec;
+  border-radius: 10px;
+  transition :background-color 0.15s;
+  padding-bottom: 55px;
+}
+
+.yuvanhits:hover{
+  background-color:rgba(128, 128, 128, 0.471);
+  cursor: pointer;
+}
+
+.yh{
+  font-family: arial;
+  font-weight: 400;
+  font-size: 14px;
+  padding-bottom: 13px;
+  padding-right: 110px;
+  padding-top: 10px;
+}
+
+.rahmanhits{
+  width: 233px;
+  background-color: black;
+  height: 55px;
+  border: none;
+  color: white;
+  transition: opacity 0.15sec;
+  border-radius: 10px;
+  transition :background-color 0.15s;
+  padding-bottom: 55px;
+}
+
+.rahmanhits:hover{
+  background-color:rgba(128, 128, 128, 0.471);
+  cursor: pointer;
+}
+
+.rh{
+  font-family: arial;
+  font-weight: 400;
+  font-size: 14px;
+  padding-bottom: 13px;
+  padding-right: 100px;
+  padding-top: 10px;
+}
+
+.harrisjayarajhits{
+  width: 233px;
+  background-color: black;
+  height: 55px;
+  border: none;
+  color: white;
+  transition: opacity 0.15sec;
+  border-radius: 10px;
+  transition :background-color 0.15s;
+  padding-bottom: 55px;
+}
+
+.harrisjayarajhits:hover{
+  background-color:rgba(128, 128, 128, 0.471);
+  cursor: pointer;
+}
+
+.hj{
+  font-family: arial;
+  font-weight: 400;
+  font-size: 14px;
+  padding-bottom: 13px;
+  padding-right: 65px;
+  padding-top: 10px;
+}
+
+.anirudhhits{
+  width: 233px;
+  background-color: black;
+  height: 55px;
+  border: none;
+  color: white;
+  transition: opacity 0.15sec;
+  border-radius: 10px;
+  transition :background-color 0.15s;
+  padding-bottom: 55px;
+}
+
+.anirudhhits:hover{
+  background-color:rgba(128, 128, 128, 0.471);
+  cursor: pointer;
+}
+
+.ah{
+  font-family: arial;
+  font-weight: 400;
+  font-size: 14px;
+  padding-bottom: 13px;
+  padding-right: 102px;
+  padding-top: 10px;
+}
+
+.pianocover{
+  width: 233px;
+  background-color: black;
+  height: 55px;
+  border: none;
+  color: white;
+  transition: opacity 0.15sec;
+  border-radius: 10px;
+  transition :background-color 0.15s;
+  padding-bottom: 55px;
+}
+
+.pianocover:hover{
+  background-color:rgba(128, 128, 128, 0.471);
+  cursor: pointer;
+}
+
+.pc{
+  font-family: arial;
+  font-weight: 400;
+  font-size: 14px;
+  padding-bottom: 13px;
+  padding-right: 103px;
+  padding-top: 10px;
+}
+
+.massbgm{
+  width: 233px;
+  background-color: black;
+  height: 55px;
+  border: none;
+  color: white;
+  transition: opacity 0.15sec;
+  border-radius: 10px;
+  transition :background-color 0.15s;
+  padding-bottom: 55px;
+}
+
+.massbgm:hover{
+  background-color:rgba(128, 128, 128, 0.471);
+  cursor: pointer;
+}
+
+.mb{
+  font-family: arial;
+  font-weight: 400;
+  font-size: 14px;
+  padding-bottom: 13px;
+  padding-right: 115px;
+  padding-top: 10px;
+}
+
+.ilaiyaraajabgm{
+  width: 233px;
+  background-color: black;
+  height: 55px;
+  border: none;
+  color: white;
+  transition: opacity 0.15sec;
+  border-radius: 10px;
+  transition :background-color 0.15s;
+  padding-bottom: 55px;
+}
+
+.ilaiyaraajabgm:hover{
+  background-color:rgba(128, 128, 128, 0.471);
+  cursor: pointer;
+}
+
+.ib{
+  font-family: arial;
+  font-weight: 400;
+  font-size: 14px;
+  padding-bottom: 13px;
+  padding-right: 85px;
+  padding-top: 10px;
+}
+
+.gvprakashhits{
+  width: 233px;
+  background-color: black;
+  height: 55px;
+  border: none;
+  color: white;
+  transition: opacity 0.15sec;
+  border-radius: 10px;
+  transition :background-color 0.15s;
+  padding-bottom: 55px;
+}
+
+.gvprakashhits:hover{
+  background-color: rgba(128, 128, 128, 0.471);
+  cursor: pointer;
+}
+
+.gh{
+  font-family: arial;
+  font-weight: 400;
+  font-size: 14px;
+  padding-bottom: 13px;
+  padding-right: 78px;
+  padding-top: 10px;
+}
+  
+
+.nshits{
+  width: 233px;
+  background-color: black;
+  height: 50px;
+  border: none;
+  color: white;
+  transition: opacity 0.15sec;
+  border-radius: 10px;
+  transition :background-color 0.15s;
+  padding-bottom: 55px;
+}
+
+.nshits:hover{
+  background-color:rgba(128, 128, 128, 0.471);
+  cursor: pointer;
+}
+
+.n{
+  font-family: arial;
+  font-weight: 400;
+  font-size: 14px;
+  padding-bottom: 13px;
+  padding-right: 125px;
+  padding-top: 10px;
+}
+
+.tkhits{
+  width: 233px;
+  background-color: black;
+  height: 50px;
+  border: none;
+  color: white;
+  transition: opacity 0.15sec;
+  border-radius: 10px;
+  transition :background-color 0.15s;
+  padding-bottom: 55px;
+}
+
+.tkhits:hover{
+  background-color:rgba(128, 128, 128, 0.471);
+  cursor: pointer;
+}
+
+.tk{
+  font-family: arial;
+  font-weight: 400;
+  font-size: 14px;
+  padding-bottom: 13px;
+  padding-right: 135px;
+  padding-top: 10px;
+}
+
+.m4l{
+  color: rgba(211, 211, 211, 0.6);
+  font-family: arial;
+  font-size:12px;
+  width: 95px;
+  padding-bottom: 20px;
+  padding-top: 5px;
+
+
+}

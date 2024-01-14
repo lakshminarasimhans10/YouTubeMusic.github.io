@@ -1,0 +1,51 @@
+.songs{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  height: 280px;
+  width: 1000px;
+  margin-top: 270px;
+  margin-left: 330px;
+  justify-content: space-between;
+  overflow-y:scroll;
+  position: fixed;
+  scroll-behavior: smooth;
+  padding-top: 10px;
+  
+}
+
+.songs::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.badass-song, .hukum-song, .wasted-song, .john-song, .uyire1-song, .uyire2-song, .maankarate-song, .loki2-song, .leo-song, .naaready-song{
+  height: 150px;
+  width: 150px;
+  margin-right: 20px;
+
+}
+
+.badass-song-img, .hukum-song-img, .wasted-song-img, .john-song-img, .uyire1-song-img, .uyire2-song-img, .maankarate-song-img, .loki2-song-img, .leo-song-img, .naaready-song-img
+{
+  height: 150px;
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.badass-song-des1, .hukum-song-des1, .wasted-song-des1, .john-song-des1, .uyire1-song-des1, .uyire2-song-des1, .maankarate-song-des1, .loki2-song-des1, .leo-song-des1, .naaready-song-des1{
+  color: white;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  height: 40px;
+  width: 125px;
+  margin-bottom: 5px;
+}
+
+.badass-song-des2, .hukum-song-des2, .wasted-song-des2, .john-song-des2, .uyire1-song-des2, .uyire2-song-des2, .maankarate-song-des2, .loki2-song-des2, .leo-song-des2, .naaready-song-des2{
+  font-family: arial;
+  color: rgba(225, 225, 225, 0.721);
+  font-style: normal;
+  width: 100px;
+}
